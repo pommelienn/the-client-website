@@ -352,3 +352,91 @@ body.dark .switch::before{
 body.dark .home .text{
     color: var(--text-color);
 }
+
+
+h1{
+    margin-left: 1em;
+}
+
+
+.account-een{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 15em;
+    height: 15em;
+    margin: 1em;
+}
+.knop-account-een{
+    color:red;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.account-twee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 15em;
+    height: 15em;
+    margin: 1em;
+}
+
+.knop-account-twee{
+    color:red;
+    border:none;
+    cursor: pointer;
+}
+
+
+.account-drie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 15em;
+    height: 15em;
+    margin: 1em;
+}
+
+.knop-account-drie{
+    color:red;
+    border:none;
+    cursor: pointer;
+}
+
+
+.account-een,
+.account-twee,
+.account-drie {
+    display: inline-block; /* Plaats de divs naast elkaar */
+    margin-right: 1em; /* Optionele marge tussen de divs */
+}
+
+.account-een:hover{
+    transition: padding 0.3s;
+}
+
+.account-een:active {
+    padding: 1em 1em 1em 1em; 
+}
+
+.account-twee:hover{
+    transition: padding 0.3s;
+}
+
+.account-twee:active {
+    padding: 1em 1em 1em 1em; 
+}
+
+.account-drie:hover{
+    transition: padding 0.3s;
+}
+
+.account-drie:active {
+    padding: 1em 1em 1em 1em; 
+}
